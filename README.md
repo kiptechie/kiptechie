@@ -5,6 +5,8 @@
 
 <p align="left"> <a href="https://twitter.com/teemserem" target="blank"><img src="https://img.shields.io/twitter/follow/teemserem?logo=twitter&style=for-the-badge" alt="teemserem" /></a> </p>
 
+<a align="left" href="https://wakatime.com/@32afca3c-e265-471d-87d6-9b8c04b6f248"><img src="https://wakatime.com/badge/user/32afca3c-e265-471d-87d6-9b8c04b6f248.svg" alt="Total time coded since Jul 8 2020" /></a>
+
 - 🌱 I’m currently learning **Jetpack Compose & Clean Architecture**
 
 - 👨‍💻 All of my projects are available at [https://github.com/kiptechie?tab=repositories](https://github.com/kiptechie?tab=repositories)
