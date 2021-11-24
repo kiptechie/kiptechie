@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Jetpack Compose & Clean Architecture**
 
-- 👨‍💻 All of my projects are available at [https://github.com/kiptechie?tab=repositories](https://github.com/kiptechie?tab=repositories)
+- 👨‍💻 Some of my work are available at [Github](https://github.com/kiptechie?tab=repositories) and [Gitlab](https://gitlab.com/kiptechie)
 
 - 💬 Ask me about **Android**
 
