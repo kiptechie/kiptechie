@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Tim</h1>
-<h3 align="center">Native Android & Ionic Angular developer from Nairobi, Kenya who converts caffeine into clean code.</h3>
+<h3 align="center">Native Android developer from Nairobi, Kenya becoming a better developer every single day.</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kiptechie" alt="kiptechie" /></a> </p>
 
