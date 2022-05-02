@@ -1,6 +1,6 @@
 
-<h1 align="center">Hi 👋, I'm Tim</h1>
-<h3 align="center">Android developer from Nairobi, Kenya becoming a better developer every single day.</h3>
+<h1 align="left">Hi 👋, I'm Tim</h1>
+<h3 align="left">Android developer from Nairobi, Kenya becoming a better developer every single day.</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kiptechie&row=2&column=3&theme=dracula&margin-w=15&margin-h=15" alt="kiptechie" /></a> </p>
 
@@ -10,9 +10,11 @@
 
 - 🌱 I’m currently learning **Jetpack Compose & Clean Architecture**
 
+-  I have an app on [Google Play](https://play.google.com/store/apps/details?id=live.kiptechie.whatsapp.status.saver.app)
+
 - 👨‍💻 All of my work is available at [Github](https://github.com/kiptechie?tab=repositories) and [Gitlab](https://gitlab.com/kiptechie)
 
-- 💬 Ask me about **Android**
+- 💬 Ask me about **Android**,**Jetpack Compose**,**Canvas**
 
 - 📫 How to reach me [Linktree](https://linktr.ee/kiptechie)
 
