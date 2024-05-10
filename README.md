@@ -10,8 +10,6 @@
 
 - 🌱 I’m currently learning **Jetpack Compose & Clean Architecture**
 
--  I have an app on [Google Play](https://play.google.com/store/apps/details?id=live.kiptechie.whatsapp.status.saver.app)
-
 - 👨‍💻 All of my work is available at [Github](https://github.com/kiptechie?tab=repositories) and [Gitlab](https://gitlab.com/kiptechie)
 
 - 💬 Ask me about **Android**,**Jetpack Compose**,**Canvas**
