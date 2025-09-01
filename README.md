@@ -1,6 +1,6 @@
 
 <h1 align="left">Hi 👋, I'm Tim</h1>
-<h3 align="left">Expert in Android and Frontend Web Development, with a Track Record of Successfully Launched Products.</h3>
+<h3 align="left">Expert in Android development, with a track record of successfully launched products.</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kiptechie&row=2&column=3&theme=dracula&margin-w=15&margin-h=15" alt="kiptechie" /></a> </p>
 
@@ -29,6 +29,6 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kiptechie&count_private=true&show_icons=true&locale=en&include_all_commits=true&theme=dracula" alt="kiptechie" /></p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=theecodepoet&layout=compact&theme=dracula" alt="kiptechie" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=kiptechie&layout=compact&theme=dracula" alt="kiptechie" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kiptechie&count_private=true&include_all_commits=true&theme=dracula" alt="kiptechie" /></p>
