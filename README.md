@@ -2,7 +2,7 @@
 <h1 align="left">Hi 👋, I'm Tim</h1>
 <h3 align="left">Expert in Android development, with a track record of successfully launched products.</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kiptechie&row=2&column=3&theme=dracula&margin-w=15&margin-h=15" alt="kiptechie" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-fork-two.vercel.app/?username=kiptechie&theme=dracula&row=2&column=3" alt="kiptechie" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/teemserem" target="blank"><img src="https://img.shields.io/twitter/follow/teemserem?logo=twitter&style=for-the-badge" alt="teemserem" /></a> </p>
 
