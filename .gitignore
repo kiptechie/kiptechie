@@ -6,6 +6,7 @@
 Thumbs.db
 
 # Build artifacts and caches
+docs/
 dist/
 build/
 node_modules/
