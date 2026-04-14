@@ -26,6 +26,19 @@ jobs:
           filename: assets/github-trophies.svg
           theme: dracula
 
+      - name: Update WakaTime Stats
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          SECTION_NAME: wakatime
+          BLOCKS: ░▒▓█
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 10
+          SHOW_TIME: true
+          SHOW_MASKED_TIME: true
+          STOP_AT_LESS_THAN_ARBITRARY_MINUTES: false
+
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
