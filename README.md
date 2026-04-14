@@ -1,4 +1,4 @@
-# Hi 👋, I'm Tim
+# > Hi, I'm Tim. I build robust Android apps.
 
 <p align="left">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58a6ff&width=435&lines=%3E+Hi%2C+I'm+Tim.+I+build+robust+Android+apps.;Expert+in+Jetpack+Compose;Canvas+%26+Animations+Enthusiast;300%2B+days+coding+streak" alt="Typing SVG" />
