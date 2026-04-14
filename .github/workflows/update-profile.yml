@@ -27,6 +27,14 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           options: username=${{ github.repository_owner }}&theme=dracula&show_icons=true&include_all_commits=true&count_private=true
 
+      - name: Generate GitHub Streak SVG
+        uses: be-next/github-streak-stats-action@v1
+        with:
+          user: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: assets/github-streak-stats.svg
+          theme: dracula
+
       - name: Generate GitHub Trophies SVG
         uses: ryo-ma/github-profile-trophy@master
         with:

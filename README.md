@@ -19,6 +19,10 @@
 </p>
 
 <p align="left">
+  <img src="./assets/github-streak-stats.svg" alt="GitHub Streak Stats" />
+</p>
+
+<p align="left">
   <img src="./assets/wakatime.svg" alt="WakaTime Stats" />
 </p>
 
