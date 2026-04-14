@@ -26,18 +26,14 @@ jobs:
           filename: assets/github-trophies.svg
           theme: dracula
 
-      - name: Update WakaTime Stats
-        uses: athul/waka-readme@master
+      - name: Generate WakaTime SVG
+        uses: anuraghazra/github-readme-stats@master
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          SECTION_NAME: wakatime
-          BLOCKS: ░▒▓█
-          TIME_RANGE: last_7_days
-          LANG_COUNT: 10
-          SHOW_TIME: true
-          SHOW_MASKED_TIME: true
-          STOP_AT_LESS_THAN_ARBITRARY_MINUTES: false
+          filename: assets/wakatime.svg
+          show_icons: true
+          theme: dracula
+          api: wakatime # This is the key for WakaTime stats
+          wakatime_user: kiptechie # Hardcoded for now, can be a secret
 
       - name: Commit and Push
         run: |
