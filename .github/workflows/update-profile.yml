@@ -28,6 +28,7 @@ jobs:
         uses: ryo-ma/github-profile-trophy@master
         with:
           username: ${{ github.repository_owner }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           theme: dracula
           output_path: assets/github-trophies.svg
 
