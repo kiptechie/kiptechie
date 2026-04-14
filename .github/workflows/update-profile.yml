@@ -11,29 +11,30 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Ensure assets directory exists
+        run: mkdir -p assets
+
       - name: Generate GitHub Stats SVG
         uses: anuraghazra/github-readme-stats@master
         with:
           filename: assets/github-stats.svg
+          token: ${{ secrets.GH_PAT }}
           show_icons: true
           theme: dracula
           include_all_commits: true
           count_private: true
 
       - name: Generate GitHub Trophies SVG
-        uses: ryo-ma/github-profile-trophy@master
-        with:
-          filename: assets/github-trophies.svg
-          theme: dracula
+        run: |
+          curl -o assets/github-trophies.svg "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=dracula"
 
       - name: Generate WakaTime SVG
         uses: anuraghazra/github-readme-stats@master
         with:
           filename: assets/wakatime.svg
-          show_icons: true
+          api: wakatime
+          wakatime_user: ${{ secrets.WAKATIME_USERNAME }}
           theme: dracula
-          api: wakatime # This is the key for WakaTime stats
-          wakatime_user: kiptechie # Hardcoded for now, can be a secret
 
       - name: Commit and Push
         run: |
