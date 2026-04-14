@@ -30,8 +30,8 @@ jobs:
       - name: Generate GitHub Streak SVG
         uses: be-next/github-streak-stats-action@v1
         with:
-          user: ${{ github.repository_owner }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           output-path: assets/github-streak-stats.svg
           theme: dracula
 
