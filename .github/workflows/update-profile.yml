@@ -33,6 +33,7 @@ jobs:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: dracula
+          title: -Issues,-Reviews
           output_path: assets/github-trophies.svg
 
       - name: Generate WakaTime SVG
