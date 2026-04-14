@@ -18,6 +18,10 @@
   <img src="./assets/github-stats.svg" alt="GitHub Stats" />
 </p>
 
+<p align="left">
+  <img src="./assets/wakatime.svg" alt="WakaTime Stats" />
+</p>
+
 ---
 
 ### 🛠 Tech Stack & Tools
