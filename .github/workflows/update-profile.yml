@@ -1,0 +1,45 @@
+name: Update GitHub Profile Assets
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Ensure assets directory exists
+        run: mkdir -p assets
+
+      - name: Generate GitHub Stats SVG
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          filename: assets/github-stats.svg
+          token: ${{ secrets.GH_PAT }}
+          show_icons: true
+          theme: dracula
+          include_all_commits: true
+          count_private: true
+
+      - name: Generate GitHub Trophies SVG
+        run: |
+          curl -o assets/github-trophies.svg "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=dracula"
+
+      - name: Generate WakaTime SVG
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          filename: assets/wakatime.svg
+          api: wakatime
+          wakatime_user: ${{ secrets.WAKATIME_USERNAME }}
+          theme: dracula
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git commit -m "docs: update profile assets" || exit 0
+          git push

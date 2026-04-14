@@ -1,0 +1,15 @@
+# GitHub Profile README temporary files
+.superpowers/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts and caches
+docs/
+dist/
+build/
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
