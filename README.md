@@ -1,34 +1,41 @@
+# Hi 👋, I'm Tim
 
-<h1 align="left">Hi 👋, I'm Tim</h1>
-<h3 align="left">Expert in Android development, with a track record of successfully launched products.</h3>
+<p align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58a6ff&width=435&lines=%3E+Hi%2C+I'm+Tim.+I+build+robust+Android+apps.;Expert+in+Jetpack+Compose;Canvas+%26+Animations+Enthusiast;300%2B+days+coding+streak" alt="Typing SVG" />
+</p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-fork-two.vercel.app/?username=kiptechie&theme=dracula&row=2&column=3" alt="kiptechie" /></a> </p>
+### Expert Android Developer | Jetpack Compose | Clean Architecture
 
-<p align="left"> <a href="https://twitter.com/teemserem" target="blank"><img src="https://img.shields.io/twitter/follow/teemserem?logo=twitter&style=for-the-badge" alt="teemserem" /></a> </p>
+---
 
-<p align="left"><a href="https://wakatime.com/@32afca3c-e265-471d-87d6-9b8c04b6f248"><img src="https://wakatime.com/badge/user/32afca3c-e265-471d-87d6-9b8c04b6f248.svg" alt="Total time coded since Jul 8 2020" /></a></p>
+### 📊 Activity & Metrics
 
-- 🌱 I’m currently learning **Jetpack Compose & Clean Architecture**
+<p align="left">
+  <img src="./assets/github-trophies.svg" alt="GitHub Trophies" />
+</p>
 
-- 👨‍💻 All of my work is available at [Github](https://github.com/kiptechie?tab=repositories) and [Gitlab](https://gitlab.com/kiptechie)
+<p align="left">
+  <img src="./assets/github-stats.svg" alt="GitHub Stats" />
+</p>
 
-- 💬 Ask me about **Android**,**Jetpack Compose**,**Canvas**
+---
 
-- 📫 How to reach me [Linktree](https://linktr.ee/kiptechie)
+### 🛠 Tech Stack & Tools
 
-<h3 align="left">Connect with me:</h3>
+<p align="left">
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose" />
+  <img src="https://img.shields.io/badge/Kotlin%20Multiplatform-000000?style=for-the-badge&logo=kotlin&logoColor=white" alt="KMP" />
+  <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase" alt="Firebase" />
+</p>
+
+---
+
+### 🔗 Connect with me
+
 <p align="left">
 <a href="https://twitter.com/teemserem" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="teemserem" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/theecodepoet" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="theecodepoet" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/10742646" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="10742646" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/kipkorirserem3" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="kipkorirserem3" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/kiptechie" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="kiptechie" height="30" width="40" /></a>
+<a href="https://linktr.ee/kiptechie" target="blank"><img align="center" src="https://img.shields.io/badge/Linktree-43B02A?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree" height="30" /></a>
 </p>
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kiptechie&count_private=true&show_icons=true&locale=en&layout=compact&include_all_commits=true&theme=dracula" alt="kiptechie" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kiptechie&count_private=true&show_icons=true&locale=en&include_all_commits=true&theme=dracula" alt="kiptechie" /></p>
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=kiptechie&layout=compact&theme=dracula" alt="kiptechie" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kiptechie&count_private=true&include_all_commits=true&theme=dracula" alt="kiptechie" /></p>
