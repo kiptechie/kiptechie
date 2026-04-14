@@ -35,14 +35,27 @@ jobs:
           output-path: assets/github-streak-stats.svg
           theme: dracula
 
-      - name: Generate GitHub Trophies SVG
-        uses: ryo-ma/github-profile-trophy@master
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
         with:
-          username: ${{ github.repository_owner }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          theme: dracula
-          title: -Issues,-Reviews
-          output_path: assets/github-trophies.svg
+          deno-version: v1.x
+
+      - name: Checkout Trophy Repository
+        uses: actions/checkout@v4
+        with:
+          repository: ryo-ma/github-profile-trophy
+          path: github-profile-trophy
+
+      - name: Generate GitHub Trophies SVG (Filtered)
+        env:
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd github-profile-trophy
+          # Patch render_svg.ts to hide Issues and Reviews
+          sed -i 's/new Card(\s*\[\],/new Card(["-Issues","-Reviews"],/' render_svg.ts
+          deno run --allow-net --allow-env --allow-read --allow-write render_svg.ts "${{ github.repository_owner }}" "../assets/github-trophies.svg" "dracula"
+          cd ..
+          rm -rf github-profile-trophy
 
       - name: Generate WakaTime SVG
         uses: readme-tools/github-readme-stats-action@v1
