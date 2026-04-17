@@ -126,11 +126,11 @@
         class="stat"
         x="350"
         y="12.5"
-      >1,552 hrs 38 mins</text>
+      >1,562 hrs 13 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
-      <svg data-testid="lang-progress" width="25.85%">
+      <svg data-testid="lang-progress" width="25.95%">
         <rect
             height="8"
             fill="#ff6e96"
@@ -153,7 +153,7 @@
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
-      <svg data-testid="lang-progress" width="22.9%">
+      <svg data-testid="lang-progress" width="22.86%">
         <rect
             height="8"
             fill="#ff6e96"
@@ -172,11 +172,11 @@
         class="stat"
         x="350"
         y="12.5"
-      >1,320 hrs 58 mins</text>
+      >1,321 hrs 32 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
-      <svg data-testid="lang-progress" width="21.99%">
+      <svg data-testid="lang-progress" width="21.96%">
         <rect
             height="8"
             fill="#ff6e96"
@@ -199,7 +199,7 @@
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
-      <svg data-testid="lang-progress" width="13.13%">
+      <svg data-testid="lang-progress" width="13.1%">
         <rect
             height="8"
             fill="#ff6e96"
@@ -222,7 +222,7 @@
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
-      <svg data-testid="lang-progress" width="5.29%">
+      <svg data-testid="lang-progress" width="5.28%">
         <rect
             height="8"
             fill="#ff6e96"
@@ -351,12 +351,12 @@
     </g>
   </g><g transform="translate(0, 250)">
     <g class="stagger" style="animation-delay: 1950ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Markdown">Markdown:</text>
+      <text class="stat bold" y="12.5" data-testid="YAML">YAML:</text>
       <text
         class="stat"
         x="350"
         y="12.5"
-      >30 hrs 19 mins</text>
+      >31 hrs 38 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
@@ -374,12 +374,12 @@
     </g>
   </g><g transform="translate(0, 275)">
     <g class="stagger" style="animation-delay: 2100ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="YAML">YAML:</text>
+      <text class="stat bold" y="12.5" data-testid="Markdown">Markdown:</text>
       <text
         class="stat"
         x="350"
         y="12.5"
-      >30 hrs 9 mins</text>
+      >30 hrs 31 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
@@ -1041,12 +1041,12 @@
     </g>
   </g><g transform="translate(0, 1000)">
     <g class="stagger" style="animation-delay: 6450ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="WebGPU Shading Language">WebGPU Shading Language:</text>
+      <text class="stat bold" y="12.5" data-testid="Org">Org:</text>
       <text
         class="stat"
         x="350"
         y="12.5"
-      >22 mins</text>
+      >24 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
@@ -1064,12 +1064,12 @@
     </g>
   </g><g transform="translate(0, 1025)">
     <g class="stagger" style="animation-delay: 6600ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="CMake">CMake:</text>
+      <text class="stat bold" y="12.5" data-testid="WebGPU Shading Language">WebGPU Shading Language:</text>
       <text
         class="stat"
         x="350"
         y="12.5"
-      >17 mins</text>
+      >22 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
@@ -1087,7 +1087,7 @@
     </g>
   </g><g transform="translate(0, 1050)">
     <g class="stagger" style="animation-delay: 6750ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Go">Go:</text>
+      <text class="stat bold" y="12.5" data-testid="CMake">CMake:</text>
       <text
         class="stat"
         x="350"
@@ -1110,12 +1110,12 @@
     </g>
   </g><g transform="translate(0, 1075)">
     <g class="stagger" style="animation-delay: 6900ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Org">Org:</text>
+      <text class="stat bold" y="12.5" data-testid="Go">Go:</text>
       <text
         class="stat"
         x="350"
         y="12.5"
-      >15 mins</text>
+      >17 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#f8f8f2"></rect>
