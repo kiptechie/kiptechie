@@ -68,6 +68,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           options: username=${{ secrets.WAKATIME_USERNAME }}&theme=dracula
 
+      - name: Filter WakaTime SVG (10+ hours only)
+        run: node .github/scripts/filter-wakatime.js
+
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
