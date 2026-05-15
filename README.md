@@ -4,7 +4,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58a6ff&width=435&lines=Expert+in+Jetpack+Compose;Canvas+%26+Animations+Enthusiast;300%2B+days+coding+streak" alt="Typing SVG" />
 </p>
 
-### Expert Android Developer | Jetpack Compose | Clean Architecture
+### Expert Android Developer | Jetpack Compose | Agentic development
 
 ---
 
