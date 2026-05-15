@@ -55,7 +55,7 @@ jobs:
         run: |
           cd github-profile-trophy
           # Patch render_svg.ts to hide Issues and Reviews using the built-in filter list
-          sed -i 's/new Card(\n      \[],/new Card(["-Issues", "-Reviews"],/g' render_svg.ts
+          perl -0777 -pi -e 's/new Card\(\s*\[\],/new Card(["-Issues", "-Reviews"],/g' render_svg.ts
           deno run --allow-net --allow-env --allow-read --allow-write render_svg.ts "${{ github.repository_owner }}" "../assets/github-trophies.svg" "dracula"
           cd ..
           rm -rf github-profile-trophy
