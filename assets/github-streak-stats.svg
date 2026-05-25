@@ -11,7 +11,7 @@
 
   <!-- Total Contributions -->
   <g transform="translate(50, 48)">
-    <text class="stat-number" fill="#ff79c6" text-anchor="middle" x="55">690</text>
+    <text class="stat-number" fill="#ff79c6" text-anchor="middle" x="55">687</text>
     <text class="stat-label" fill="#f8f8f2" text-anchor="middle" x="55" y="30">Total Contributions</text>
     <text class="date-range" text-anchor="middle" x="55" y="50">Past Year</text>
   </g>
