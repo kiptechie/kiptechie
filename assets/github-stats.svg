@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Timothy Serem's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 179, Total Commits  : 3005, Total PRs: 2708, Total Issues: 22, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 179, Total Commits  : 3005, Total PRs: 2709, Total Issues: 22, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
