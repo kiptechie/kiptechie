@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Timothy Serem's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 179, Total Commits  : 3064, Total PRs: 2716, Total Issues: 22, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 179, Total Commits  : 3065, Total PRs: 2716, Total Issues: 22, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 36.176056951997296;
+        stroke-dashoffset: 36.172586327264916;
       }
     }
   
