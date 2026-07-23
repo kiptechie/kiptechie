@@ -8,22 +8,19 @@ on:
     branches:
       - main
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   update-assets:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
 
       - name: Ensure assets directory exists
         run: mkdir -p assets
 
       - name: Generate GitHub Stats SVG
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1.2.0
         with:
           card: stats
           path: assets/github-stats.svg
@@ -31,7 +28,7 @@ jobs:
           options: username=${{ github.repository_owner }}&theme=dracula&show_icons=true&include_all_commits=true&count_private=true
 
       - name: Generate GitHub Streak SVG
-        uses: be-next/github-streak-stats-action@v1
+        uses: be-next/github-streak-stats-action@681434bed24fb0f179e819bb6bae31029baa4796 # v1
         with:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -39,29 +36,31 @@ jobs:
           theme: dracula
 
       - name: Setup Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@22d081ff2d3a40755e97629de92e3bcbfa7cf2ed # v2.0.5
         with:
           deno-version: v1.x
 
       - name: Checkout Trophy Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           repository: ryo-ma/github-profile-trophy
+          ref: ccb591b887775ee567c0d9a38424ddfb9b1906c4 # pinned so upstream code can't change under the render_svg.ts patch below
           path: github-profile-trophy
 
       - name: Generate GitHub Trophies SVG (Filtered)
         env:
-          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN1: ${{ secrets.GH_PAT }}
         run: |
           cd github-profile-trophy
           # Patch render_svg.ts to hide Issues and Reviews using the built-in filter list
           perl -0777 -pi -e 's/new Card\(\s*\[\],/new Card(["-Issues", "-Reviews"],/g' render_svg.ts
-          deno run --allow-net --allow-env --allow-read --allow-write render_svg.ts "${{ github.repository_owner }}" "../assets/github-trophies.svg" "dracula"
+          # Scope permissions: only reach the GitHub API, only read the trophy dir, only write into assets.
+          deno run --allow-net=api.github.com --allow-env --allow-read=. --allow-write=../assets render_svg.ts "${{ github.repository_owner }}" "../assets/github-trophies.svg" "dracula"
           cd ..
           rm -rf github-profile-trophy
 
       - name: Generate WakaTime SVG
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1.2.0
         with:
           card: wakatime
           path: assets/wakatime.svg
