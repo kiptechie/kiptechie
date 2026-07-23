@@ -14,7 +14,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Ensure assets directory exists
         run: mkdir -p assets
@@ -41,7 +41,7 @@ jobs:
           deno-version: v1.x
 
       - name: Checkout Trophy Repository
-        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: ryo-ma/github-profile-trophy
           ref: ccb591b887775ee567c0d9a38424ddfb9b1906c4 # pinned so upstream code can't change under the render_svg.ts patch below
