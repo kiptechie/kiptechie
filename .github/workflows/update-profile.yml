@@ -20,7 +20,7 @@ jobs:
         run: mkdir -p assets
 
       - name: Generate GitHub Stats SVG
-        uses: readme-tools/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        uses: readme-tools/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
           path: assets/github-stats.svg
@@ -60,7 +60,7 @@ jobs:
           rm -rf github-profile-trophy
 
       - name: Generate WakaTime SVG
-        uses: readme-tools/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448 # v2.0.1
+        uses: readme-tools/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: wakatime
           path: assets/wakatime.svg
