@@ -133,11 +133,11 @@
         class="stat"
         x="350"
         y="12.5"
-      >2,028 hrs 7 mins</text>
+      >2,029 hrs 14 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
-      <svg data-testid="lang-progress" width="29.43%">
+      <svg data-testid="lang-progress" width="29.44%">
         <rect
             height="8"
             
