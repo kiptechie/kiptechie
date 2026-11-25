@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Timothy Serem&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 178, Total Commits  : 4463, Total PRs: 2920, Total Issues: 22, Contributed to (last year): 6</desc>
+        <title id="titleId">Timothy Serem&#39;s GitHub Stats, Rank: A+</title>
+        <desc id="descId">Total Stars Earned: 178, Total Commits  : 4488, Total PRs: 2926, Total Issues: 35, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 33.07619833079651;
+        stroke-dashoffset: 29.609340766851183;
       }
     }
   
@@ -150,7 +150,7 @@
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          A
+          A+
         </text>
       
         </g>
@@ -214,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >22</text>
+      >35</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">

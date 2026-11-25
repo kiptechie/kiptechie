@@ -1,6 +1,6 @@
 
-      <svg width="495" height="675"
-        viewBox="0 0 495 675"
+      <svg width="495" height="700"
+        viewBox="0 0 495 700"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -133,11 +133,11 @@
         class="stat"
         x="350"
         y="12.5"
-      >2,186 hrs 35 mins</text>
+      >2,187 hrs 38 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
-      <svg data-testid="lang-progress" width="29.7%">
+      <svg data-testid="lang-progress" width="29.69%">
         <rect
             height="8"
             
@@ -160,7 +160,7 @@
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
-      <svg data-testid="lang-progress" width="20.76%">
+      <svg data-testid="lang-progress" width="20.74%">
         <rect
             height="8"
             
@@ -183,7 +183,7 @@
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
-      <svg data-testid="lang-progress" width="18.74%">
+      <svg data-testid="lang-progress" width="18.73%">
         <rect
             height="8"
             
@@ -206,7 +206,7 @@
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
-      <svg data-testid="lang-progress" width="10.87%">
+      <svg data-testid="lang-progress" width="10.86%">
         <rect
             height="8"
             
@@ -271,11 +271,11 @@
         class="stat"
         x="350"
         y="12.5"
-      >212 hrs 38 mins</text>
+      >214 hrs 7 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
-      <svg data-testid="lang-progress" width="2.89%">
+      <svg data-testid="lang-progress" width="2.91%">
         <rect
             height="8"
             
@@ -294,7 +294,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >124 hrs 49 mins</text>
+      >125 hrs 21 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
@@ -340,7 +340,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >81 hrs 21 mins</text>
+      >81 hrs 51 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
@@ -455,7 +455,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >22 hrs 6 mins</text>
+      >22 hrs 26 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
@@ -478,7 +478,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >21 hrs 7 mins</text>
+      >21 hrs 10 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
@@ -547,7 +547,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >13 hrs 4 mins</text>
+      >13 hrs 10 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
@@ -588,12 +588,12 @@
     </g>
   </g><g transform="translate(0, 500)">
     <g class="stagger" style="animation-delay: 3450ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="HTTP Request">HTTP Request:</text>
+      <text class="stat bold" y="12.5" data-testid="PHP">PHP:</text>
       <text
         class="stat"
         x="350"
         y="12.5"
-      >10 hrs 59 mins</text>
+      >11 hrs 23 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
@@ -611,12 +611,12 @@
     </g>
   </g><g transform="translate(0, 525)">
     <g class="stagger" style="animation-delay: 3600ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Prolog">Prolog:</text>
+      <text class="stat bold" y="12.5" data-testid="HTTP Request">HTTP Request:</text>
       <text
         class="stat"
         x="350"
         y="12.5"
-      >10 hrs 18 mins</text>
+      >10 hrs 59 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
@@ -634,6 +634,29 @@
     </g>
   </g><g transform="translate(0, 550)">
     <g class="stagger" style="animation-delay: 3750ms" transform="translate(25, 0)">
+      <text class="stat bold" y="12.5" data-testid="Prolog">Prolog:</text>
+      <text
+        class="stat"
+        x="350"
+        y="12.5"
+      >10 hrs 18 mins</text>
+      
+    <svg width="220" x="110" y="4">
+      <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8"></rect>
+      <svg data-testid="lang-progress" width="2%">
+        <rect
+            height="8"
+            
+            rx="5" ry="5" x="0" y="0"
+            class="lang-progress"
+            style="animation-delay: 4050ms;"
+        />
+      </svg>
+    </svg>
+  
+    </g>
+  </g><g transform="translate(0, 575)">
+    <g class="stagger" style="animation-delay: 3900ms" transform="translate(25, 0)">
       <text class="stat bold" y="12.5" data-testid="Astro">Astro:</text>
       <text
         class="stat"
@@ -649,7 +672,7 @@
             
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
-            style="animation-delay: 4050ms;"
+            style="animation-delay: 4200ms;"
         />
       </svg>
     </svg>
